@@ -2,6 +2,7 @@
     "name": "tulip/oauth2-hydra",
     "description": "Provides a Hydra compatible oauth2 client.",
     "type": "library",
+    "license": "MIT",
     "require": {
         "league/oauth2-client": "^2.2"
     },
