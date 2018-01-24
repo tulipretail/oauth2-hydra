@@ -1,0 +1,27 @@
+{
+    "name": "tulip/oauth2-hydra",
+    "description": "Provides a Hydra compatible oauth2 client.",
+    "type": "library",
+    "require": {
+        "league/oauth2-client": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "mockery/mockery": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Philip Nicolcev",
+            "email": "phil.nicolcev@tulip.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hydra\\OAuth2\\": "src/",
+            "Hydra\\OAuth2\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
