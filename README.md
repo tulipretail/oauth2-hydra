@@ -47,7 +47,7 @@ Here we get one with the 'hydra.clients' scope:
 
 You can also use this library if you are a Relying Party.
 
-Here we send users to the Hydra to authenticate so that we can complete the authorization code flow:
+Here we send users to Hydra to authenticate so that we can complete the authorization code flow:
 
 ```
     $provider = new \Hydra\OAuth2\Provider\OAuth2([
