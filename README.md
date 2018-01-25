@@ -8,7 +8,7 @@ This package provides [Hydra](https://github.com/ory/hydra) OAuth 2.0 support fo
 To install, use composer:
 
 ```
-composer require pnicolcev-tulipretail/oauth2-hydra
+composer require tulip/oauth2-hydra
 ```
 
 ## Usage
